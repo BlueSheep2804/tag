@@ -1,6 +1,6 @@
 summon area_effect_cloud ~ ~ ~ {Duration:6,Age:4,Effects:[{Id:24,ShowIcon:false,ShowParticles:false,Duration:2}]}
 
-scoreboard players add @s TAG.freeze_percentage 1
+scoreboard players operation @s TAG.freeze_percentage += #gun_hit TAG.freeze_percentage
 
 execute if score @s TAG.freeze_percentage >= #max TAG.freeze_percentage run function tag:freeze
 

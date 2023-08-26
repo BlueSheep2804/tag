@@ -1,4 +1,4 @@
-scoreboard players add @s TAG.freeze_percentage 20
+scoreboard players operation @s TAG.freeze_percentage += #melee_hit TAG.freeze_percentage
 
 execute if score @s TAG.freeze_percentage >= #max TAG.freeze_percentage run function tag:freeze
 
