@@ -3,3 +3,6 @@ execute unless score $global TAG.freeze_display matches -2147483648..2147483647 
 
 scoreboard objectives add TAG.freeze_unit_rate dummy
 scoreboard players set #2 TAG.freeze_unit_rate 2
+
+scoreboard objectives add TAG.freeze_percentage dummy
+scoreboard players set #100 TAG.freeze_percentage 100
