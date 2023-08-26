@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        },
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:carrot_on_a_stick"
+                ],
+                "nbt": "{TAG.item:\"freeze_unit\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tag:freeze_unit/attack"
+  }
+}
