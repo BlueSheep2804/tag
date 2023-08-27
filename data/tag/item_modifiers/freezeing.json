@@ -1,0 +1,27 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{HideFlags:255,Unbreakable:true,Enchantments:[{id:\"binding_curse\",lvl:1}],Trim:{pattern:\"snout\",material:\"diamond\"}}"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "name": "knockback_resistance",
+        "amount": 1,
+        "operation": "addition",
+        "id": "4ba413e9-ebe8-47ec-a766-d04b0b9d23db",
+        "slot": "legs"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "❄ 凍結状態 ❄",
+      "color": "aqua",
+      "italic": false
+    }
+  }
+]
