@@ -39,6 +39,7 @@ execute if score #points TAG.xpbar matches 1.. run scoreboard players remove #po
 # スコアをレベルに代入
 xp set @s 0 levels
 scoreboard players operation #levels TAG.xpbar = @s TAG.freeze_percentage
+scoreboard players operation #levels TAG.xpbar /= #10 TAG.xpbar
 
 execute if score #levels TAG.xpbar matches 512.. run xp add @s 512 levels
 execute if score #levels TAG.xpbar matches 512.. run scoreboard players remove #levels TAG.xpbar 512

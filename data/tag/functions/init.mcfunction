@@ -5,9 +5,9 @@ scoreboard objectives add TAG.freeze_unit_rate dummy
 scoreboard players set #2 TAG.freeze_unit_rate 2
 
 scoreboard objectives add TAG.freeze_percentage dummy
-scoreboard players set #max TAG.freeze_percentage 100
-scoreboard players set #gun_hit TAG.freeze_percentage 1
-scoreboard players set #melee_hit TAG.freeze_percentage 30
+scoreboard players set #max TAG.freeze_percentage 1000
+scoreboard players set #gun_hit TAG.freeze_percentage 10
+scoreboard players set #melee_hit TAG.freeze_percentage 300
 scoreboard players set #tmp TAG.freeze_percentage 0
 
 scoreboard objectives add TAG.click used:carrot_on_a_stick
@@ -18,3 +18,4 @@ scoreboard players set #2 TAG.freeze_unit_mode 2
 scoreboard objectives add TAG.xpbar dummy
 scoreboard players set #1000 TAG.xpbar 1000
 scoreboard players set #4 TAG.xpbar 4
+scoreboard players set #10 TAG.xpbar 10
