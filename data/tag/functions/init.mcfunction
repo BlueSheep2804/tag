@@ -8,6 +8,7 @@ scoreboard objectives add TAG.freeze_percentage dummy
 scoreboard players set #max TAG.freeze_percentage 1000
 scoreboard players set #gun_hit TAG.freeze_percentage 10
 scoreboard players set #melee_hit TAG.freeze_percentage 300
+scoreboard players set #melting TAG.freeze_percentage 8
 scoreboard players set #tmp TAG.freeze_percentage 0
 
 scoreboard objectives add TAG.click used:carrot_on_a_stick
