@@ -5,6 +5,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{Enchantments:[],AttributeModifiers:[]}"
+    "tag": "{CustomModelData: 12, Enchantments:[],AttributeModifiers:[]}"
   }
 ]
