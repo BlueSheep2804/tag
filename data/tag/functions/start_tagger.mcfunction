@@ -1,7 +1,6 @@
 effect clear @a[team=red] slowness
 effect clear @a[team=red] jump_boost
 effect clear @a[team=red] blindness
-effect give @a[team=red] slowness infinite 0 true
 
 execute as @a[team=red] at @s run function tag:freeze_unit/give
 
