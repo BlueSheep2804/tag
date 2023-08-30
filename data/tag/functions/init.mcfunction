@@ -20,3 +20,5 @@ scoreboard objectives add TAG.xpbar dummy
 scoreboard players set #1000 TAG.xpbar 1000
 scoreboard players set #4 TAG.xpbar 4
 scoreboard players set #10 TAG.xpbar 10
+
+scoreboard objectives add TAG.temp dummy
