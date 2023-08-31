@@ -3,6 +3,7 @@ effect clear @a[team=red] jump_boost
 effect clear @a[team=red] blindness
 
 execute as @a[team=red] at @s run function tag:freeze_unit/give
+execute as @a[team=red] at @s run function tag:items/tagger_tp_runner/give
 
 title @a reset
 title @a title {"text": "❄ 鬼解放 ❄", "color": "aqua"}
