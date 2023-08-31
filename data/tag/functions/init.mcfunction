@@ -22,3 +22,6 @@ scoreboard players set #4 TAG.xpbar 4
 scoreboard players set #10 TAG.xpbar 10
 
 scoreboard objectives add TAG.temp dummy
+
+scoreboard objectives add TAG.device dummy
+execute unless score $max TAG.freeze_display matches -2147483648..2147483647 run scoreboard players set $max TAG.device 2

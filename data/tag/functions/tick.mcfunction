@@ -10,7 +10,7 @@ execute as @a[tag=TAG.freeze] at @s run function tag:freeze
 execute as @a at @s run function tag:freezing_level/sync_xpbar
 stopsound @a * entity.player.levelup
 
-execute if predicate teamsupport:timer/is_enabled run function tag:status
+execute if predicate teamsupport:timer/is_enabled as @a at @s run function tag:status
 
 execute if score #tick TS_timer matches ..-1 run function tag:end
 
