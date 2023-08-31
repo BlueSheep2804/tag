@@ -4,6 +4,8 @@ effect clear @a[team=red] blindness
 
 execute as @a[team=red] at @s run function tag:freeze_unit/give
 
+execute as @a[team=red] run function tag:give_tagger_armor
+
 title @a reset
 title @a title {"text": "❄ 鬼解放 ❄", "color": "aqua"}
 execute as @a at @s run playsound entity.ender_dragon.growl player @s ~ ~ ~ 0.5 1.2

@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "鬼専用防具",
+      "color": "red"
+    }
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{color:11546150},HideFlags:255,Enchantments:[{id:\"binding_curse\",lvl:1}]}"
+  }
+]
