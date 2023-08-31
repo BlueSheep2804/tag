@@ -11,5 +11,6 @@ scoreboard players set @s TAG.freeze_percentage 0
 tag @s remove TAG.freeze
 
 tellraw @a {"text":"☀ ","color":"light_purple","extra":[{"selector":"@s","bold":true},{"text":"の氷が解けた！","bold":true}]}
+playsound entity.zombie_villager.cure player @s ~ ~ ~ 0.5 1
 
 scoreboard players operation @e[type=item_display,tag=TAG.freeze_display] TAG.freeze_display += @s TAG.freeze_display
