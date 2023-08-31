@@ -7,5 +7,6 @@ execute as @a at @s run playsound entity.experience_orb.pickup player @s ~ ~ ~ 1
 
 scoreboard players operation #after TS_timer = #max TS_timer
 scoreboard players set #max TS_timer 600
+bossbar set teamsupport:timer visible true
 
 function teamsupport:timer/start
