@@ -11,6 +11,8 @@ effect give @a slowness infinite 255 true
 effect give @a jump_boost infinite 200 true
 effect give @a[team=red] blindness infinite 255 true
 
+execute as @a[team=red] run function tag:give_tagger_armor
+
 schedule function teamsupport:countdown/3 1s
 schedule function teamsupport:countdown/2 2s
 schedule function teamsupport:countdown/1 3s
