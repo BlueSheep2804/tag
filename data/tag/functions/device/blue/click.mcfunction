@@ -1,4 +1,4 @@
-tellraw @s [{"text": "青", "color": "blue"}, {"text": "のボタンを押しました！"}]
+tellraw @a [{"text": "青", "color": "blue"}, {"text": "のボタンが押されました！"}]
 playsound entity.firework_rocket.launch block @s ~ ~ ~ 0.8 1
 
 data modify entity @e[type=interaction,tag=TAG.device_blue,limit=1] width set value 0
