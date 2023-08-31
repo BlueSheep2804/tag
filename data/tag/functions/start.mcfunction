@@ -2,6 +2,8 @@ clear @a
 
 function tag:device/reset
 
+scoreboard players reset @a TAG.cd_tagger_tp_runner
+
 tp @a[team=blue] @e[type=marker,tag=TAG.spawn_blue,limit=1]
 tp @a[team=red] @e[type=marker,tag=TAG.spawn_red,limit=1]
 
