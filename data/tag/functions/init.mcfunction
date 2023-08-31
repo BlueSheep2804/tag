@@ -25,3 +25,5 @@ scoreboard objectives add TAG.temp dummy
 
 scoreboard objectives add TAG.device dummy
 execute unless score $max TAG.freeze_display matches -2147483648..2147483647 run scoreboard players set $max TAG.device 2
+
+scoreboard objectives add TAG.cd_tagger_tp_runner dummy

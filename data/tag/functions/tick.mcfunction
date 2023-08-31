@@ -1,5 +1,6 @@
 execute as @a[scores={TAG.click=1..},predicate=tag:hold_freeze_unit] at @s run function tag:freeze_unit/mode_change
-execute as @a[scores={TAG.click=1..},predicate=!tag:hold_freeze_unit] at @s run scoreboard players set @s TAG.click 0
+execute as @a[scores={TAG.click=1..},predicate=tag:hold_tagger_tp_runner] at @s run function tag:tagger_tp_runner/click
+execute as @a[scores={TAG.click=1..}] at @s run scoreboard players set @s TAG.click 0
 
 execute as @a[predicate=tag:hold_freeze_unit,scores={TAG.freeze_unit_mode=1}] at @s anchored eyes positioned ^ ^ ^0.5 run function tag:freeze_unit/rec
 
@@ -11,6 +12,9 @@ execute if score #clicked_all_devices TAG.device matches 1 run function tag:goal
 
 execute as @a at @s run function tag:freezing_level/sync_xpbar
 stopsound @a * entity.player.levelup
+
+scoreboard players remove @a[scores={TAG.cd_tagger_tp_runner=1..}] TAG.cd_tagger_tp_runner 1
+execute as @a[scores={TAG.cd_tagger_tp_runner=..0}] at @s run function tag:tagger_tp_runner/cd_end
 
 execute if predicate teamsupport:timer/is_enabled as @a at @s run function tag:status
 
