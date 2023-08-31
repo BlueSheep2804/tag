@@ -1,0 +1,1 @@
+give @s glow_squid_spawn_egg{TAG.item: "goal_set", display: {Name: '{"text": "ゴール地点の設定", "italic": false, "color": "light_purple"}'}, EntityTag: {CustomName: "",Invulnerable: true, Silent: true, Tags: ["TAG.goal_set"], NoAI: true, PersistenceRequired: true}}

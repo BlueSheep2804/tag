@@ -7,6 +7,8 @@ execute as @a[tag=TAG.hit,predicate=!tag:hold_freeze_unit] at @s run function ta
 
 execute as @a[tag=TAG.freeze] at @s run function tag:freeze
 
+execute if score #clicked_all_devices TAG.device matches 1 run function tag:goal/tick
+
 execute as @a at @s run function tag:freezing_level/sync_xpbar
 stopsound @a * entity.player.levelup
 
@@ -16,5 +18,6 @@ execute if score #tick TS_timer matches ..-1 run function tag:end
 
 execute as @e[type=allay,tag=TAG.spawn_set_blue] at @s run function tag:spawn_set/set_blue
 execute as @e[type=salmon,tag=TAG.spawn_set_red] at @s run function tag:spawn_set/set_red
+execute as @e[type=glow_squid,tag=TAG.goal_set] at @s run function tag:goal/set
 execute as @e[type=item_frame,tag=TAG.device_blue] at @s run function tag:device/blue/set
 execute as @e[type=item_frame,tag=TAG.device_red] at @s run function tag:device/red/set
