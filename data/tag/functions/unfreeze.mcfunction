@@ -4,7 +4,8 @@ effect clear @s slowness
 effect clear @s jump_boost
 ride @s dismount
 item replace entity @e[type=item_display,tag=TAG.freeze_display,scores={TAG.freeze_display=0}] container.0 with air 1
-item replace entity @s armor.legs with air
+item replace entity @s armor.head with air
+item replace entity @s armor.feet with air
 
 scoreboard players set @s TAG.freeze_percentage 0
 tag @s remove TAG.freeze
