@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "blue"
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"TAG.device_blue\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tag:device/blue/click"
+  }
+}

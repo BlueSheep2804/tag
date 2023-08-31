@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "type_specific": {
+      "type": "player",
+      "advancements": {
+        "tag:device/blue": true,
+        "tag:device/red": true
+      }
+    }
+  }
+}
