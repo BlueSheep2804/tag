@@ -1,3 +1,4 @@
+# 人数をスコアに代入
 execute store result score #runner TAG.temp if entity @a[team=blue,tag=!TAG.goal]
 execute store result score #runner_alive TAG.temp if entity @a[team=blue,tag=!TAG.goal,tag=!TAG.freeze]
 

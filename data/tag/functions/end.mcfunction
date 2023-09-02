@@ -1,7 +1,9 @@
+# タイマー終了
 scoreboard players set #enable TS_timer 0
 scoreboard players set #tick TS_timer 0
 bossbar set teamsupport:timer visible false
 
+# 結果をスコアボードに代入
 execute store result score #goal TAG.temp if entity @a[team=blue,tag=TAG.goal]
 execute store result score #runner TAG.temp if entity @a[team=blue,tag=!TAG.goal]
 execute store result score #runner_freezing TAG.temp if entity @a[team=blue,tag=TAG.freeze]
