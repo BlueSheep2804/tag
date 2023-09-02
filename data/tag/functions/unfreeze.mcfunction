@@ -1,8 +1,6 @@
 scoreboard players operation @e[type=item_display,tag=TAG.freeze_display] TAG.freeze_display -= @s TAG.freeze_display
 
 # 束縛解除
-effect clear @s slowness
-effect clear @s jump_boost
 ride @s dismount
 
 # 見た目をリセット
