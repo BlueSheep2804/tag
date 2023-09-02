@@ -63,6 +63,6 @@ execute if score #levels TAG.xpbar matches 1.. run xp add @s 1 levels
 execute if score #levels TAG.xpbar matches 1.. run scoreboard players remove #levels TAG.xpbar 1
 
 # リセット
-scoreboard players reset #levels TAG.xpbar
+scoreboard players reset #points TAG.xpbar
 scoreboard players reset #diff TAG.xpbar
 scoreboard players reset #levels TAG.xpbar
