@@ -3,9 +3,6 @@ scoreboard players operation @e[type=item_display,tag=TAG.freeze_display] TAG.fr
 # 凍結中は乗ったままにする
 ride @s mount @e[type=item_display,tag=TAG.freeze_display,scores={TAG.freeze_display=0},limit=1]
 
-# アイテムディスプレイを氷に設定
-item replace entity @e[type=item_display,tag=TAG.freeze_display,scores={TAG.freeze_display=0}] container.0 with ice 1
-
 # 凍結度を最大より上にならないように調整
 execute if score @s TAG.freeze_percentage >= #max TAG.freeze_percentage run scoreboard players operation @s TAG.freeze_percentage = #max TAG.freeze_percentage
 
