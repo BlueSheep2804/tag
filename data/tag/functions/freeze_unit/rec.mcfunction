@@ -12,4 +12,4 @@ execute if score @s TAG.freeze_unit_rate matches 0 run particle snowflake ~ ~-0.
 # particle dust 0.235 0.494 0.878 0.4 ~0.2 ~0.2 ~0.2 0 0 0 0 1 force
 
 # 前に進めて再検知
-execute positioned ^ ^ ^0.25 if entity @s[distance=..6] if block ~ ~ ~ #tag:airs run function tag:freeze_unit/rec
+execute positioned ^ ^ ^0.25 if entity @s[distance=..6] if block ~ ~ ~ #tag:freeze_unit_through run function tag:freeze_unit/rec
