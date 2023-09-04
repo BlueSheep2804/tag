@@ -1,1 +1,1 @@
-give @s carrot_on_a_stick{TAG.item:"tagger_tp_runner", display: {Name: '{"text": "ランダムな逃走者にテレポート", "color": "light_purple", "italic": false}'}, CustomModelData: 13}
+give @s carrot_on_a_stick{TAG.item:"tagger_tp_runner", display: {Name: '{"text": "テレポーター", "color": "light_purple", "italic": false}', Lore: ['{"text": ""}', '{"text": "ランダムな逃走者にテレポートできるアイテム。", "color": "white", "italic": false}', '{"text": "使用後はクールダウンが発生する。", "color": "red", "italic": false}']}, CustomModelData: 13}

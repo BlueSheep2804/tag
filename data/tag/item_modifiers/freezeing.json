@@ -1,7 +1,7 @@
 [
   {
     "function": "minecraft:set_nbt",
-    "tag": "{HideFlags:255,Unbreakable:true,Enchantments:[{id:\"binding_curse\",lvl:1}],Trim:{pattern:\"snout\",material:\"diamond\"}}"
+    "tag": "{HideFlags:255,Unbreakable:true,Enchantments:[{id:\"binding_curse\",lvl:1}],Trim:{pattern:\"silence\",material:\"diamond\"}}"
   },
   {
     "function": "minecraft:set_attributes",

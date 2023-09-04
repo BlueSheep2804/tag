@@ -4,6 +4,14 @@
     "name": "tag:freeze_unit/common"
   },
   {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "❄ 凍結ユニット[銃] ❄",
+      "italic": false,
+      "color": "aqua"
+    }
+  },
+  {
     "function": "minecraft:set_nbt",
     "tag": "{CustomModelData: 11, Enchantments:[{}],AttributeModifiers:[{Amount:-1,AttributeName:\"generic.attack_damage\",Name:\"attack\",Operation:0,Slot:\"mainhand\",UUID:[I;-1237915067,-998553109,-1187910411,-506951398]}]}"
   }

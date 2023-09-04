@@ -4,6 +4,26 @@
     "name": "tag:freeze_unit/common"
   },
   {
+    "function": "minecraft:set_name",
+    "name": [
+      {
+        "text": "❄",
+        "italic": false,
+        "color": "aqua"
+      },
+      {
+        "text": " 凍結ユニット[殴] ",
+        "italic": false,
+        "color": "red"
+      },
+      {
+        "text": "❄",
+        "italic": false,
+        "color": "aqua"
+      }
+    ]
+  },
+  {
     "function": "minecraft:set_nbt",
     "tag": "{CustomModelData: 12, Enchantments:[],AttributeModifiers:[]}"
   }

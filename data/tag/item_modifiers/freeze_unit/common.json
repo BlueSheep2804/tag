@@ -1,4 +1,4 @@
 {
   "function": "minecraft:set_nbt",
-  "tag": "{TAG.item:\"freeze_unit\",display:{Name:'{\"text\": \"❄ 凍結ユニット ❄\", \"italic\": false, \"color\": \"aqua\"}',Lore:['{\"text\": \"逃走者を凍らせることのできる武器。\", \"italic\": false, \"color\": \"white\"}']},Unbreakable:true,HideFlags:255}"
+  "tag": "{TAG.item:\"freeze_unit\",display:{Lore:['{\"text\": \"\"}','{\"text\": \"逃走者を凍らせることのできる武器。\", \"italic\": false, \"color\": \"white\"}']},Unbreakable:true,HideFlags:255}"
 }

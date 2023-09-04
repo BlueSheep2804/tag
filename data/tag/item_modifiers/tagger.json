@@ -3,11 +3,12 @@
     "function": "minecraft:set_name",
     "name": {
       "text": "鬼専用防具",
-      "color": "red"
+      "color": "red",
+      "italic": false
     }
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{display:{color:11546150},HideFlags:255,Enchantments:[{id:\"binding_curse\",lvl:1}]}"
+    "tag": "{display:{color:14876672},HideFlags:255,Enchantments:[{id:\"binding_curse\",lvl:1}],Trim:{pattern:\"silence\",material:\"redstone\"}}"
   }
 ]
