@@ -1,0 +1,14 @@
+name: "新機能提案"
+description: "新しい機能の追加を提案する"
+labels:
+  - enhancement
+body:
+  - type: textarea
+    attributes:
+      label: 概要
+      description: 提案する機能を詳しく記入してください。
+      placeholder: どのような機能を提案しますか？
+  - type: textarea
+    attributes:
+      label: その他
+      description: その他になにかあれば記入してください。
