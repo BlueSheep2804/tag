@@ -39,7 +39,10 @@
         "minecraft:wall_torch",
         "minecraft:soul_wall_torch",
         "minecraft:redstone_wall_torch",
+        "minecraft:spawner",
         "minecraft:ladder",
+        "minecraft:iron_bars",
+        "minecraft:chain",
         "minecraft:sculk_vein",
         // "#minecraft:wool_carpets",
         "#minecraft:corals",
@@ -57,6 +60,7 @@
         "#minecraft:buttons",
         "#minecraft:rails",
         "#minecraft:bee_growables",
+        "#minecraft:flower_pots",
         "#minecraft:candles",
         "minecraft:small_amethyst_bud"
     ]
