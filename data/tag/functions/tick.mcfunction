@@ -1,13 +1,9 @@
+# 凍結ユニットの処理
+execute as @a[predicate=tag:hold_freeze_unit] at @s run function tag:freeze_unit/tick
+
 # 右クリック検知
-execute as @a[scores={TAG.click=1..},predicate=tag:hold_freeze_unit] at @s run function tag:freeze_unit/mode_change
 execute as @a[scores={TAG.click=1..},predicate=tag:hold_tagger_tp_runner] at @s run function tag:items/tagger_tp_runner/click
 execute as @a[scores={TAG.click=1..}] at @s run scoreboard players set @s TAG.click 0
-
-# 凍結ユニットの当たり判定チェック
-execute as @a[predicate=tag:hold_freeze_unit,scores={TAG.freeze_unit_mode=1}] at @s anchored eyes positioned ^ ^ ^0.5 run function tag:freeze_unit/rec
-
-# 凍結ユニットの攻撃処理
-execute as @a[tag=TAG.hit,predicate=!tag:hold_freeze_unit] at @s run function tag:freeze_unit/hit
 
 # 凍結処理
 execute as @a[tag=TAG.freeze] at @s run function tag:freeze
