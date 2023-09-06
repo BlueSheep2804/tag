@@ -1,5 +1,5 @@
 # 逃走者をランダムで一人選出
-tag @a[team=blue,sort=random,limit=1] add TAG.random_pick
+tag @a[team=blue,tag=!TAG.freeze,sort=random,limit=1] add TAG.random_pick
 tp @s @a[tag=TAG.random_pick,limit=1]
 
 # 選ばれた逃走者に警告
