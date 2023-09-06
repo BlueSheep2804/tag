@@ -18,7 +18,7 @@ execute if predicate teamsupport:timer/is_enabled as @a at @s run function tag:s
 execute if score #tick TS_timer matches ..-1 run function tag:end
 
 # テレポーター
-execute as @a[team=red] at @s run function tag:items/tagger_tp_runner/tick
+execute as @a[team=red] at @s run function tag:items/teleporter/tick
 
 # 設定アイテム検知
 execute as @e[type=allay,tag=TAG.spawn_set_blue] at @s run function tag:spawn_set/set_blue

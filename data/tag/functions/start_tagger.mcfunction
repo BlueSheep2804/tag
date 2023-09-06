@@ -7,7 +7,7 @@ effect clear @a[team=red] blindness
 
 # アイテム付与
 execute as @a[team=red] at @s run function tag:freeze_unit/give
-execute as @a[team=red] at @s run function tag:items/tagger_tp_runner/give
+execute as @a[team=red] at @s run function tag:items/teleporter/give
 
 # 演出
 title @a reset
