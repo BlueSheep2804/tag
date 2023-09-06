@@ -5,6 +5,6 @@ data modify entity @e[type=interaction,tag=TAG.device_red,limit=1] width set val
 tag @e[type=interaction,tag=TAG.device_red] add TAG.device_clicked
 
 execute store result score #clicked TAG.device if entity @e[tag=TAG.device_clicked]
-execute if score #clicked TAG.device >= $max TAG.device run function tag:device/clicked_all_devices
+execute if score #clicked TAG.device >= $max TAG.device run function tag:settings/device/clicked_all_devices
 
 advancement revoke @s only tag:device/red

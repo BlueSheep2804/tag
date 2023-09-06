@@ -1,7 +1,7 @@
 clear @a
 
 # デバイスのリセット
-function tag:device/reset
+function tag:settings/device/reset
 
 # ランダムテレポートのクールダウンのリセット
 scoreboard players reset @a TAG.cd_tagger_tp_runner
