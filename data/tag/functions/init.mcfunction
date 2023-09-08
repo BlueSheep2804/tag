@@ -23,7 +23,7 @@ scoreboard players set #2 TAG.freeze_unit_mode 2
 
 # 経験値の同期
 scoreboard objectives add TAG.xpbar dummy
-scoreboard players set #1000 TAG.xpbar 1000
+scoreboard players set #104 TAG.xpbar 104
 scoreboard players set #4 TAG.xpbar 4
 scoreboard players set #10 TAG.xpbar 10
 
