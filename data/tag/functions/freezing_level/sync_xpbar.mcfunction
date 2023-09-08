@@ -41,12 +41,6 @@ xp set @s 0 levels
 scoreboard players operation #levels TAG.xpbar = @s TAG.freeze_percentage
 scoreboard players operation #levels TAG.xpbar /= #10 TAG.xpbar
 
-execute if score #levels TAG.xpbar matches 512.. run xp add @s 512 levels
-execute if score #levels TAG.xpbar matches 512.. run scoreboard players remove #levels TAG.xpbar 512
-execute if score #levels TAG.xpbar matches 256.. run xp add @s 256 levels
-execute if score #levels TAG.xpbar matches 256.. run scoreboard players remove #levels TAG.xpbar 256
-execute if score #levels TAG.xpbar matches 128.. run xp add @s 128 levels
-execute if score #levels TAG.xpbar matches 128.. run scoreboard players remove #levels TAG.xpbar 128
 execute if score #levels TAG.xpbar matches 64.. run xp add @s 64 levels
 execute if score #levels TAG.xpbar matches 64.. run scoreboard players remove #levels TAG.xpbar 64
 execute if score #levels TAG.xpbar matches 32.. run xp add @s 32 levels
